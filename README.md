@@ -1,0 +1,2 @@
+The is for me to practice using GitHub, git, and EMACS all together. I will learn how to create directories, files, and
+such in the EMACS terminal then push them to the GitHub repositories. Computer Science 325 Spring 2026 @ UT-Martin. 
