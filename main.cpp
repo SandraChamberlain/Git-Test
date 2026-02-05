@@ -7,7 +7,15 @@ int sum(int n) {
     total += i;
   }
   return total;
-}  
+}
+
+int product(int n) {
+  int total = 1;
+  for (int i = 1; i <= n; i++) {
+      total *= i;
+  }
+  return total;
+}
 
 int main() {
   int n;
@@ -16,6 +24,9 @@ int main() {
 
   int result = sum(n);
   cout << "The sum from 1 to " << n << " is " << result << endl;
-  
+
+  int prod_result = product(n);
+  cout << "The product from 1 to " << n << " is " << prod_result << endl;
+
   return 0;
 }
